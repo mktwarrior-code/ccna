@@ -5,7 +5,7 @@ export function PnixtaPreview() {
   return (
     <section className="py-20 lg:py-28 bg-gray-900 text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center">
           {/* Left: Text */}
           <div>
             <span className="inline-block px-3 py-1 text-xs font-semibold text-amber-400 bg-amber-400/10 border border-amber-400/20 rounded-full mb-4">
@@ -15,7 +15,7 @@ export function PnixtaPreview() {
               피닉타 페스타<br />
               <span className="text-amber-400">WORLD CULPORTS FESTA</span>
             </h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
               인류의 전통놀이를 통해 문명의 다양성과 연대를 잇는,
               지구촌 세 번째 초대형 축제입니다. 관람문화가 아닌 마당놀이처럼
               함께 어울려 즐기는 축제로 발전시켜 길이길이 후손에게 물려줍니다.

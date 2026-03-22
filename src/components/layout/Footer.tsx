@@ -34,7 +34,7 @@ export function Footer() {
             <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wide">
               바로가기
             </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-3 text-sm">
               {[
                 { href: "/about/greeting", label: "의장 환영사" },
                 { href: "/about/vision", label: "비전 및 미션" },
@@ -60,7 +60,7 @@ export function Footer() {
             <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wide">
               연락처
             </h3>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <ul className="space-y-3 text-sm text-gray-400">
               <li>
                 <span className="text-gray-300">이메일</span>
                 <br />

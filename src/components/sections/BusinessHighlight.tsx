@@ -57,12 +57,12 @@ export function BusinessHighlight() {
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-8">
           {CARDS.map((card) => (
             <Link
               key={card.href}
               href={card.href}
-              className="group bg-white rounded-2xl p-7 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-100"
+              className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-100"
             >
               <div
                 className={`w-12 h-12 rounded-xl bg-gradient-to-br ${card.color} flex items-center justify-center text-2xl mb-5`}
@@ -72,10 +72,10 @@ export function BusinessHighlight() {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-1">
                 {card.subtitle}
               </p>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">
                 {card.title}
               </h3>
-              <p className="text-sm text-gray-500 leading-relaxed">
+              <p className="text-base text-gray-500 leading-relaxed">
                 {card.description}
               </p>
               <p className="mt-5 text-amber-600 text-sm font-medium group-hover:underline">
