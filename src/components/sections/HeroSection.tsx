@@ -22,12 +22,12 @@ export function HeroSection() {
         <h1 className="text-3xl sm:text-5xl lg:text-7xl font-black leading-tight mb-6">
           지구촌{" "}
           <span className="text-amber-400">3대 축제</span>를<br />
-          꿈꾸는 위원회
+          만듭니다
         </h1>
 
         {/* Sub heading */}
         <p className="text-xl sm:text-2xl text-gray-200 font-light mb-6">
-          문화민족선진화위원회
+          CCNA(Committee for Cultural and National Advancement)
         </p>
         <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
           전통놀이와 문화의 힘으로 올림픽·월드컵과 어깨를 나란히 하는<br className="hidden sm:block" />

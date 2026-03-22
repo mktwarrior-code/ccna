@@ -23,7 +23,7 @@ export default function GreetingPage() {
             <div className="sticky top-24">
               <div className="relative aspect-square rounded-2xl overflow-hidden bg-gray-100 mb-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80"
+                  src="/img/chairman.png"
                   alt="신동이 의장"
                   fill
                   className="object-cover"

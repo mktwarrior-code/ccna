@@ -23,14 +23,21 @@ export default function AboutPage() {
         bgImage="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1920&q=80"
       />
       <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Featured image */}
-        <div className="relative h-48 sm:h-64 rounded-2xl overflow-hidden mb-10">
+        {/* Logo symbol with text */}
+        <div className="flex flex-col items-center mb-12">
           <Image
-            src="/img/pnixta-poster.png"
-            alt="PNIXTA 공식 포스터"
-            fill
-            className="object-contain bg-gray-900"
+            src="/img/ccna-logo.png"
+            alt="CCNA 로고"
+            width={200}
+            height={200}
+            className="object-contain w-32 sm:w-40 lg:w-48"
           />
+          <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900 tracking-tight">
+            CCNA
+          </h2>
+          <p className="mt-2 text-sm sm:text-base lg:text-lg text-gray-500 font-medium">
+            Committee for Cultural and National Advancement
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-4">
           {SUB_MENUS.map((item) => (
